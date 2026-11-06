@@ -3,7 +3,6 @@ let buttonCalc: HTMLButtonElement | null = document.querySelector(".button-calc"
 let result: HTMLElement | null = document.querySelector(".result");// | null servira para indicar caso não tenha valor, para indicar que ela está nula
 let calc: number;
 
-
 if(buttonCalc){ // verificar se está sendo passado um resultado para o botão
     buttonCalc.addEventListener("click", ()=>{
         let value1 = Number(num[0]?.value || 0); // o || 0 serve para deixar um valor de seguranç nesse caso 0
